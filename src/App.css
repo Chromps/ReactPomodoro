@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+code{
+  color: #0cd92d;
+}
+.timer{
+  font-size: 40px;
+  margin: 10% auto;
+  color: #fff;
+}
+body{
+  background-color: #262626;
+}
+.btn {
+  width: 70px;
+  height: 30px;
+  border: 0px solid black;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  transition: background-color;
+  transition-duration: 250ms;
+}
+.btn:hover{
+  background-color: #fff;
+}
+.settings{
+  margin: 20px;
+  display: flex;
+  justify-content:center;
+}
+.subSettings{
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  margin: 10px;
+  background-color: #222;
+  padding: 10px;
+}
+.reset{
+  background-color: #d04949;
+}
+.start{
+  background-color: #40a13e;
+}
+.description{
+
+  text-align: justify;
+  text-indent: 30px;
+}
+.pomodoro{
+  color: #d04949;
+}
