@@ -19,6 +19,9 @@ class App extends Component {
 
     }
   }
+  componentDidUpdate(){
+    document.title = "("+this.state.minutes +  ":" + this.state.seconds + ") React Pomodoro";
+  }
 
   setBreakTime(direction){
     if(this.state.runState){
@@ -104,7 +107,6 @@ class App extends Component {
         runState: true,
         intervalVar: setInterval(this.tick.bind(this), 1000)
       })
-      //intervalVar = setInterval(this.tick.bind(this), 1000);
     }
     else if(this.state.runState){
       this.setState({
